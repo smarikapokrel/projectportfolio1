@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  background-color: gainsboro;
+}
+
+.header{
+  background-color: black;
+  color: #fff;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;    
+}
+
+.nav-link:hover{
+  background-color: greenyellow;
+}
+
+.section{
+  text-align: center;
+  color: bisque;
+}
+
+.home{
+  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+}
